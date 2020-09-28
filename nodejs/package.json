@@ -1,0 +1,17 @@
+{
+  "name": "ibm-edge-metrics-exporter",
+  "version": "0.0.9",
+  "description": "Node.js app to retrieve Edge metrics via REST",
+  "main": "edge.js",
+  "dependencies": {
+    "async": "^3.0",
+    "axios": "0.19.2",
+    "express": "^4.16.1",
+    "https": "^1.0.0",
+    "request": "^2.88.0",
+    "request-debug": "0.2.0",
+    "tar": "^6.0.2",
+    "tar-fs": "^2.1.0",
+    "fs-extra": "^9.0.1"
+  }
+}
